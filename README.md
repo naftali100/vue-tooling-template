@@ -51,3 +51,8 @@ pnpm test
 ```sh
 pnpm lint
 ```
+
+### Format with [Prettier](https://prettier.io/)
+```sh
+pnpm format
+```
