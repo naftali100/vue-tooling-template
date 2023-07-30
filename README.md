@@ -1,4 +1,5 @@
 # vue-tooling-template
+## Based on `pnpm create vue@latest`
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -42,7 +43,7 @@ pnpm build
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
 ```sh
-pnpm test:unit
+pnpm test
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
