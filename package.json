@@ -23,7 +23,7 @@
     "@rushstack/eslint-patch": "^1.5.1",
     "@tsconfig/node18": "^18.2.0",
     "@types/jsdom": "^21.1.1",
-    "@types/node": "^18.17.1",
+    "@types/node": "^20.8.6",
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
     "@vitejs/plugin-vue": "^4.2.3",
