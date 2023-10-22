@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^18.2.0
     version: 18.2.0
   '@types/jsdom':
-    specifier: ^21.1.1
-    version: 21.1.1
+    specifier: ^21.1.4
+    version: 21.1.4
   '@types/node':
     specifier: ^20.8.6
     version: 20.8.6
@@ -501,10 +501,10 @@ packages:
     resolution: {integrity: sha512-mEo1sAde+UCE6b2hxn332f1g1E8WfYRu6p5SvTKr2ZKC1f7gFJXk4h5PyGP9Dt6gCaG8y8XhwnXWC6Iy2cmBng==}
     dev: true
 
-  /@types/jsdom@21.1.1:
-    resolution: {integrity: sha512-cZFuoVLtzKP3gmq9eNosUL1R50U+USkbLtUQ1bYVgl/lKp0FZM7Cq4aIHAL8oIvQ17uSHi7jXPtfDOdjPwBE7A==}
+  /@types/jsdom@21.1.4:
+    resolution: {integrity: sha512-NzAMLEV0KQ4cBaDx3Ls8VfJUElyDUm1xrtYRmcMK0gF8L5xYbujFVaQlJ50yinQ/d47j2rEP1XUzkiYrw4YRFA==}
     dependencies:
-      '@types/node': 18.17.1
+      '@types/node': 20.8.6
       '@types/tough-cookie': 4.0.2
       parse5: 7.1.2
     dev: true
