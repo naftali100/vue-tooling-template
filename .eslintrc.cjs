@@ -21,6 +21,7 @@ module.exports = {
   },
   // plugins: ['vue', 'vuejs-accessibility', '@typescript-eslint'],
   rules: {
-    'no-undef': 'off'
+    'no-undef': 'off',
+    'require-await': 'error'
   }
 }
