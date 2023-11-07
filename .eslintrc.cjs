@@ -4,12 +4,11 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 module.exports = {
   root: true,
   extends: [
-    'plugin:vue/vue3-recommended',
     'eslint:recommended',
-    '@vue/eslint-config-typescript',
-    // TODO: 'plugin:@typescript-eslint/recommended',
-    '@vue/eslint-config-prettier/skip-formatting',
+    'plugin:vue/vue3-recommended',
+    '@vue/eslint-config-typescript/recommended',
     'plugin:vuejs-accessibility/recommended',
+    '@vue/eslint-config-prettier/skip-formatting',
     'plugin:tailwindcss/recommended',
     'prettier'
   ],
@@ -22,6 +21,7 @@ module.exports = {
   // plugins: ['vue', 'vuejs-accessibility', '@typescript-eslint'],
   rules: {
     'no-undef': 'off',
-    'require-await': 'error'
+    'require-await': 'error',
+    'no-shadow': 'error'
   }
 }
