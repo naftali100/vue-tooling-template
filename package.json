@@ -2,6 +2,7 @@
   "name": "vue-tooling-template",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "vite",
     "dev": "vite",
