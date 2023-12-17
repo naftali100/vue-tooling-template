@@ -60,7 +60,7 @@ devDependencies:
     version: 9.1.0(eslint@8.55.0)
   eslint-plugin-tailwindcss:
     specifier: ^3.13.0
-    version: 3.13.0(tailwindcss@3.3.5)
+    version: 3.13.0(tailwindcss@3.3.6)
   eslint-plugin-vue:
     specifier: ^9.19.2
     version: 9.19.2(eslint@8.55.0)
@@ -89,8 +89,8 @@ devDependencies:
     specifier: ^0.5.7
     version: 0.5.7(prettier@3.1.0)
   tailwindcss:
-    specifier: ^3.3.5
-    version: 3.3.5
+    specifier: ^3.3.6
+    version: 3.3.6
   typescript:
     specifier: ~5.3.2
     version: 5.3.2
@@ -1629,7 +1629,7 @@ packages:
       synckit: 0.8.6
     dev: true
 
-  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.3.5):
+  /eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.3.6):
     resolution: {integrity: sha512-Fcep4KDRLWaK3KmkQbdyKHG0P4GdXFmXdDaweTIPcgOP60OOuWFbh1++dufRT28Q4zpKTKaHwTsXPJ4O/EjU2Q==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
@@ -1637,7 +1637,7 @@ packages:
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.32
-      tailwindcss: 3.3.5
+      tailwindcss: 3.3.6
     dev: true
 
   /eslint-plugin-vue@9.19.2(eslint@8.55.0):
@@ -3278,8 +3278,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwindcss@3.3.5:
-    resolution: {integrity: sha512-5SEZU4J7pxZgSkv7FP1zY8i2TIAOooNZ1e/OGtxIEv6GltpoiXUqWvLy89+a10qYTB1N5Ifkuw9lqQkN9sscvA==}
+  /tailwindcss@3.3.6:
+    resolution: {integrity: sha512-AKjF7qbbLvLaPieoKeTjG1+FyNZT6KaJMJPFeQyLfIp7l82ggH1fbHJSsYIvnbTFQOlkh+gBYpyby5GT1LIdLw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
